@@ -1,0 +1,192 @@
+/* Importing Baloo 2 for a playful look */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
+
+/* General Body Styling */
+body {
+    background: linear-gradient(to bottom, #e1eaf2, #f7f9fa);
+    color: #F0F5FF;
+    font-family: 'Baloo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+/* Flexbox container */
+.aboutUsInfo,
+.aboutUsInner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+    /* Adding hover effect for a professional touch */
+    .aboutUsInfo:hover,
+    .aboutUsInner:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+    }
+
+.aboutUsInfo {
+    flex-direction: column;
+    background-color: #94b3c8; /* Softer, more elegant blue */
+    width: 90%;
+}
+
+.aboutUsInner {
+    flex-direction: row;
+    background-color: #7f9db3; /* Slightly darker for depth */
+}
+
+/* Title Header Styling */
+.titleHeader {
+    background-color: #94b3c8; /* Softer, more elegant blue */
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+}
+
+.titleButton {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #4a6572; /* Deep, professional blue-gray */
+}
+
+/* Text Styling */
+.bodyParagraph {
+    font-size: 1.5rem;
+    border: solid 1px #005f87; /* Slightly darker border */
+    border-radius: 16px;
+    color: #273c47; /* Deep navy for professional readability */
+    padding: 20px;
+    text-align: left;
+    line-height: 1.6;
+    width: 80%;
+}
+
+.bodyHeader {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #4a6572; /* Deep, professional blue-gray */
+    padding: 10px;
+}
+
+/* Bottom Header Adjustments */
+.bottomHeader {
+    background-color: #7f9db3;
+    padding-left: 40px;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    border: solid 1px #009DFF;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 157, 255, 0.5);
+}
+
+/* Button Styling */
+button,
+.EmailButton {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: #F0F5FF;
+    text-decoration: none;
+}
+
+button {
+    background-color: #1D2530;
+    border: none;
+}
+
+    button:hover,
+    .EmailButton:hover {
+        background: linear-gradient(to right, #007BCC, #009DFF);
+        box-shadow: 0 0 15px rgba(0, 157, 255, 0.7);
+    }
+
+/* Email Button */
+.EmailButton {
+    background-color: #009DFF;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+/* Containers */
+div {
+    padding: 10px;
+    border-radius: 40px;
+    width: 85%;
+    max-width: 1200px;
+    margin: 40px auto;
+    animation: fadeInScale 0.5s ease-in-out;
+}
+
+/* Keyframe animation */
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive Design (RWD) */
+@media screen and (max-width: 1024px) {
+    .aboutUsInner {
+        flex-direction: column;
+    }
+
+    .titleButton {
+        font-size: 2rem;
+    }
+
+    .bodyParagraph {
+        width: 90%;
+    }
+
+    img {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titleButton {
+        font-size: 1.8rem;
+    }
+
+    .bodyParagraph {
+        width: 95%;
+    }
+
+    img {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .titleButton {
+        font-size: 1.5rem;
+    }
+
+    .bodyParagraph {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    img {
+        max-width: 90%;
+    }
+}
