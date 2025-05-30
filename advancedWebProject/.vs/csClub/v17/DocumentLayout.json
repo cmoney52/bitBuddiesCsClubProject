@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\advancedWebProject\\",
+  "WorkspaceRootPath": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|c:\\users\\20220789\\documents\\run\\2025\\advancedweb\\vs2022\\advancedwebproject\\template\\scripts\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\scripts\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\advancedWebProject\\template\\styles\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\template\\styles\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\styles\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|M1A2.csproj|C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\advancedWebProject\\template\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|M1A2.csproj|solutionrelative:template\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|c:\\users\\20130150\\documents\\run\\2025\\bitbuddiescsclubproject\\advancedwebproject\\template\\scripts\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\scripts\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|c:\\users\\20130150\\documents\\run\\2025\\bitbuddiescsclubproject\\advancedwebproject\\template\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,45 +25,43 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.html",
+              "DocumentMoniker": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\main.html",
+              "RelativeDocumentMoniker": "Template\\main.html",
+              "ToolTip": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\main.html",
+              "RelativeToolTip": "Template\\main.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-30T15:22:11.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.js",
-              "DocumentMoniker": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\advancedWebProject\\Template\\Scripts\\main.js",
-              "RelativeDocumentMoniker": "Template\\Scripts\\main.js",
-              "ToolTip": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\advancedWebProject\\Template\\Scripts\\main.js",
-              "RelativeToolTip": "Template\\Scripts\\main.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-16T15:00:34.785Z",
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\styles\\main.css",
+              "RelativeDocumentMoniker": "Template\\styles\\main.css",
+              "ToolTip": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\styles\\main.css",
+              "RelativeToolTip": "Template\\styles\\main.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-16T15:00:29.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "main.css",
-              "DocumentMoniker": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\advancedWebProject\\Template\\styles\\main.css",
-              "RelativeDocumentMoniker": "Template\\styles\\main.css",
-              "ToolTip": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\advancedWebProject\\Template\\styles\\main.css",
-              "RelativeToolTip": "Template\\styles\\main.css",
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\Scripts\\main.js",
+              "RelativeDocumentMoniker": "Template\\Scripts\\main.js",
+              "ToolTip": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\Scripts\\main.js",
+              "RelativeToolTip": "Template\\Scripts\\main.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-16T15:00:29.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.html",
-              "DocumentMoniker": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\advancedWebProject\\Template\\main.html",
-              "RelativeDocumentMoniker": "Template\\main.html",
-              "ToolTip": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\advancedWebProject\\Template\\main.html",
-              "RelativeToolTip": "Template\\main.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-16T14:59:36.849Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-16T15:00:34.785Z",
+              "EditorCaption": ""
             }
           ]
         }
