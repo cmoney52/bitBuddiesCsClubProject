@@ -61,9 +61,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Template\aboutUs.html" />
+    <Content Include="Template\image\aboutUsPortrait.jpeg" />
     <Content Include="Template\main.html" />
     <Content Include="Template\Portrait.jpg" />
+    <Content Include="Template\Scripts\aboutUs.js" />
     <Content Include="Template\Scripts\main.js" />
+    <Content Include="Template\styles\aboutUs.css" />
     <Content Include="Template\styles\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -78,9 +82,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Template\image\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
