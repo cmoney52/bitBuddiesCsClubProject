@@ -6,6 +6,8 @@ body {
     background: linear-gradient(to bottom, #e1eaf2, #f7f9fa);
     color: #F0F5FF;
     font-family: 'Baloo 2', sans-serif;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    width: 100%;
     margin: 0;
     padding: 0;
     background-size: cover;
@@ -19,11 +21,10 @@ body {
     text-align: center;
     gap: 10px;
     padding: 10px;
-    margin: 10px auto;
+  
 }
 
     /* Adding hover effect for a professional touch */
-    .aboutUsInfo:hover,
     .aboutUsInner:hover {
         transform: scale(1.05);
         transition: all 0.3s ease-in-out;
@@ -32,12 +33,16 @@ body {
 .aboutUsInfo {
     flex-direction: column;
     background-color: #94b3c8; /* Softer, more elegant blue */
-    width: 90%;
+    width: 100vw;
+    max-width: 100%;
+    margin-top: 20%;
 }
 
 .aboutUsInner {
     flex-direction: row;
-    background-color: #7f9db3; /* Slightly darker for depth */
+    max-width: 90%;
+    max-height: 40%;
+    margin: 10px auto;
 }
 
 /* Title Header Styling */
@@ -46,10 +51,12 @@ body {
     border-radius: 20px;
     text-align: center;
     width: 90%;
+    padding: 20px; /* Increased padding for more space */
+    font-size: 3rem; /* Increased font size */
+    font-weight: bold;
 }
 
 .titleButton {
-    font-size: 2.5rem;
     text-decoration: none;
     color: #4a6572; /* Deep, professional blue-gray */
 }
@@ -59,11 +66,11 @@ body {
     font-size: 1.5rem;
     border: solid 1px #005f87; /* Slightly darker border */
     border-radius: 16px;
+    background-color: #7f9db3; /* Slightly darker for depth */
     color: #273c47; /* Deep navy for professional readability */
     padding: 20px;
     text-align: left;
     line-height: 1.6;
-    width: 80%;
 }
 
 .bodyHeader {
@@ -75,15 +82,20 @@ body {
 
 /* Bottom Header Adjustments */
 .bottomHeader {
+    margin-bottom: 0px;
+    width: 100%;
+    max-width: 100vw;
     background-color: #7f9db3;
     padding-left: 40px;
+    border-radius: 0px;
 }
 
 /* Image Styling */
 img {
     display: block;
     max-width: 50%;
-    height: auto;
+    max-height: 50vh;
+    width: 50%;
     border: solid 1px #009DFF;
     margin: 20px auto;
     border-radius: 20px;
@@ -124,9 +136,9 @@ button {
 div {
     padding: 10px;
     border-radius: 40px;
-    width: 85%;
+    width: 100%;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 100px auto;
     animation: fadeInScale 0.5s ease-in-out;
 }
 
@@ -172,7 +184,7 @@ div {
     }
 
     img {
-        max-width: 80%;
+        max-width: 70%;
     }
 }
 
