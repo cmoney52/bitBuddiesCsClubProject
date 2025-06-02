@@ -1,16 +1,20 @@
-let lastScrollTop = 0;
-const navbar = document.querySelector('.navbar');
+var lastScrollTop = window.scrollY;
+var navbar = document.querySelector('.navbar');
+var bottomHeader = document.querySelector('.bottomHeader');
 
 window.addEventListener('scroll', () => {
-    let scrollTop = window.scrollY || document.documentElement.scrollTop;
+    var scrollTop = window.scrollY;
 
     if (scrollTop > lastScrollTop) {
-        // Scrolling down, hide navbar
-        navbar.style.top = "-80px"; // Adjust based on navbar height
+        // Switching visible bar to bottomHeader
+        navbar.style.top = "-100px"; 
+        bottomHeader.style.bottom = "0"; 
     } else {
-        // Scrolling up, show navbar
-        navbar.style.top = "0";
+        // Swithcing the visible bar to navbar
+        navbar.style.top = "0"; 
+        bottomHeader.style.bottom = "-100px"; 
     }
 
-    lastScrollTop = scrollTop;
+    lastScrollTop = scrollTop; 
 });
+
