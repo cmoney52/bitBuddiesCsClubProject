@@ -14,9 +14,9 @@ body {
     background-size: cover;
 }
 
-/*The navbar*/
+/* The navbar */
 .navbar {
-    background: #A7AAA4;
+    background: #4A4A4A; /* Dark gray for a modern, polished look */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     max-width: 100vw;
     border-radius: 0px;
@@ -31,20 +31,24 @@ body {
     transition: top 0.5s ease-in-out;
     transform: translateY(-100px);
 }
-    /*Buttons*/
-    .navbar a {
-        padding: 10px 20px;
-        width: 25%;
-        border-radius: 4px;
-        text-decoration: none;
-        background: #B1EDE8;
-        color: #00CFC1;
-        transition: background 0.2s ease;
-    }
+
+    /* Buttons */
+.navbar a {
+    padding: 10px 20px;
+    width: 25%;
+    border-radius: 4px;
+    text-decoration: none;
+    background: transparent; /* Keeps it clean */
+    color: #FFFFFF; /* White text for high contrast */
+    font-weight: 600;
+    transition: background 0.3s ease, color 0.3s ease;
+}
 
 .navbar a:hover {
-    background: rgba(6, 47, 79, 0.8);
+    background: #FFD700; /* Professional yellow for hover */
+    color: #333333; /* Darker text for readability */
 }
+
 
 /* Flexbox container */
 .aboutUsInfo,
@@ -115,7 +119,7 @@ body {
     border-radius: 0;
     max-width: 100vw;
     padding-left: 40px;
-    background: #A7AAA4;
+    background: #4A4A4A; /* Professional dark gray */
     justify-content: space-between;
     align-items: flex-start;
     position: fixed;
@@ -125,6 +129,23 @@ body {
     transition: bottom 0.5s ease-in-out;
     transform: translateY(100px); /* Starts hidden */
 }
+
+    /* Button Styling Inside Bottom Header */
+    .bottomHeader a {
+        padding: 10px 20px;
+        border-radius: 4px;
+        text-decoration: none;
+        background: transparent;
+        color: #FFFFFF; /* White text for high contrast */
+        font-weight: 600;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+        .bottomHeader a:hover {
+            background: #FFD700; /* Elegant yellow hover effect */
+            color: #255F85; /* Darker text for readability */
+        }
+
 
 
 

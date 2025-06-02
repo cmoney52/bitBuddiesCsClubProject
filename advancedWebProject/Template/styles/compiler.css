@@ -1,4 +1,17 @@
-/*********   START RWD (Responsive Web Design   *********/
+/* Importing Baloo 2 for a playful look */
+/*Commented with Copilot*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
+
+/*Prevnting Scrolling*/
+html, body {
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    overflow: hidden; /* Disables scrolling */
+    margin: 0;
+    padding: 0;
+}
+
+/*RWD*/
 * {
     box-sizing: border-box;
 }
@@ -63,8 +76,43 @@ body {
     justify-content: center;
 }
 
+/* The navbar */
+.navbar {
+    background: #4A4A4A; /* Dark gray for a professional look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 100vw;
+    border-radius: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    top: 0px; /* Keep it fixed at the top */
+    left: 0;
+    z-index: 1000;
+}
+
+
+    /* Buttons */
+    .navbar a {
+        padding: 10px 20px;
+        width: 25%;
+        border-radius: 4px;
+        text-decoration: none;
+        background: transparent; /* Keeps it clean */
+        color: #FFFFFF; /* White text for high contrast */
+        font-weight: 600;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+        .navbar a:hover {
+            background: #FFD700; /* Professional yellow for hover */
+            color: #333333; /* Darker text for readability */
+        }
+
 .container {
     background: #fff;
+    margin-top: 100px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     max-width: 800px;
     width: 100%;
