@@ -62,13 +62,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Template\aboutUs.html" />
+    <Content Include="Template\compiler.html" />
     <Content Include="Template\image\aboutUsPortrait.jpeg" />
     <Content Include="Template\image\backgroundPicture.png" />
     <Content Include="Template\main.html" />
     <Content Include="Template\Portrait.jpg" />
     <Content Include="Template\Scripts\aboutUs.js" />
+    <Content Include="Template\Scripts\compiler.js" />
     <Content Include="Template\Scripts\main.js" />
     <Content Include="Template\styles\aboutUs.css" />
+    <Content Include="Template\styles\compiler.css" />
     <Content Include="Template\styles\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
