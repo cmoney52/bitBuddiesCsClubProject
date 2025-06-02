@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\template\\styles\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|c:\\users\\20130150\\documents\\run\\2025\\bitbuddiescsclubproject\\advancedwebproject\\template\\styles\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\styles\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|c:\\users\\20130150\\documents\\run\\2025\\bitbuddiescsclubproject\\advancedwebproject\\template\\scripts\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\scripts\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\template\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|c:\\users\\20130150\\documents\\run\\2025\\bitbuddiescsclubproject\\advancedwebproject\\template\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\template\\scripts\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\scripts\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "main.html",
               "DocumentMoniker": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\main.html",
               "RelativeDocumentMoniker": "Template\\main.html",
               "ToolTip": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\main.html",
               "RelativeToolTip": "Template\\main.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAnAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwB0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-05-30T15:22:11.473Z",
               "EditorCaption": ""
@@ -45,14 +45,14 @@
               "RelativeDocumentMoniker": "Template\\styles\\main.css",
               "ToolTip": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\styles\\main.css",
               "RelativeToolTip": "Template\\styles\\main.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwBUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-16T15:00:29.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "main.js",
               "DocumentMoniker": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\Scripts\\main.js",
               "RelativeDocumentMoniker": "Template\\Scripts\\main.js",
