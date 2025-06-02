@@ -13,6 +13,39 @@ body {
     background-size: cover;
 }
 
+.navbar {
+    background: rgba(194, 202, 208, 0.8);
+    color: rgb(6, 47, 79);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 5px 10px;
+    border-radius: 8px;
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    margin-top: 0px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+}
+
+.navbar a {
+    padding: 10px 20px;
+    width: 25%;
+    border-radius: 4px;
+    text-decoration: none;
+    background: rgb(6, 47, 79);
+    color: rgb(194, 202, 208);
+    transition: background 0.2s ease;
+    }
+
+.navbar a:hover {
+    background: rgba(6, 47, 79, 0.8);
+}
+
 /* Flexbox container */
 .aboutUsInfo,
 .aboutUsInner {
@@ -142,6 +175,7 @@ div {
     animation: fadeInScale 0.5s ease-in-out;
 }
 
+<<<<<<< HEAD
 /* Keyframe animation */
 @keyframes fadeInScale {
     from {
@@ -202,3 +236,6 @@ div {
         max-width: 90%;
     }
 }
+=======
+ 
+>>>>>>> main
