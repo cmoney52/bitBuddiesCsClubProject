@@ -1,0 +1,267 @@
+/* Importing Baloo 2 for a playful look */
+/*Commented with Copilot*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
+
+/* General Body Styling */
+body {
+    background: url("../image/backgroundPicture.png");
+    color: #F0F5FF;
+    font-family: 'Baloo 2', sans-serif;
+    overflow-x: hidden; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+/* The navbar */
+.navbar {
+    background: #4A4A4A; /* Dark gray for a modern, polished look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 100vw;
+    border-radius: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    top: -100px;
+    left: 0;
+    z-index: 1000;
+    transition: top 0.5s ease-in-out;
+    transform: translateY(-100px);
+}
+
+    /* Buttons */
+.navbar a {
+    padding: 10px 20px;
+    width: 25%;
+    border-radius: 4px;
+    text-decoration: none;
+    background: transparent; /* Keeps it clean */
+    color: #FFFFFF; /* White text for high contrast */
+    font-weight: 600;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background: #FFD700; /* Professional yellow for hover */
+    color: #333333; /* Darker text for readability */
+}
+
+
+/* Flexbox container */
+.aboutUsInfo,
+.aboutUsInner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+  
+}
+
+/*Body Paragraphs*/
+
+/*Outer Box*/
+.aboutUsInfo {
+    flex-direction: column;
+    background-color: transparent;
+    width: 100vw;
+    max-width: 100%;
+    margin-top: 7%;
+}
+/*Text*/
+.aboutUsInner {
+    flex-direction: row;
+    max-width: 90%;
+    max-height: 40%;
+    margin: 10px auto;
+}
+
+/* Title Header Styling */
+.titleHeader {
+    background-color: transparent;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px auto !important;
+    width: 90%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/*Making the title a button takes to main area*/
+.titleButton {
+    text-decoration: none;
+    color: #4a6572;
+}
+
+/* Text Styling */
+.bodyParagraph {
+    font-size: 1.5rem;
+    border-radius: 16px;
+    color: #273c47;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.bodyHeader {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #4a6572;
+    padding: 10px;
+}
+
+.bottomHeader {
+    display: flex;
+    width: 100%;
+    border-radius: 0;
+    max-width: 100vw;
+    padding-left: 40px;
+    background: #4A4A4A; /* Professional dark gray */
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    bottom: -100px;
+    left: 0;
+    z-index: 1000;
+    transition: bottom 0.5s ease-in-out;
+    transform: translateY(100px); /* Starts hidden */
+}
+
+    /* Button Styling Inside Bottom Header */
+    .bottomHeader a {
+        padding: 10px 20px;
+        border-radius: 4px;
+        text-decoration: none;
+        background: transparent;
+        color: #FFFFFF; /* White text for high contrast */
+        font-weight: 600;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+        .bottomHeader a:hover {
+            background: #FFD700; /* Elegant yellow hover effect */
+            color: #255F85; /* Darker text for readability */
+        }
+
+
+
+
+/* Image Styling */
+img {
+    display: block;
+    max-width: 50%;
+    max-height: 50vh;
+    width: 50%;
+    border: solid 1px #009DFF;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 157, 255, 0.5);
+}
+
+/*Making images get bigger when highlighted*/
+img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+
+/* Button Styling */
+.EmailButton {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: #255F85;
+    background: #DFF3E3;
+    text-decoration: none;
+}
+
+button {
+    background-color: #C6C8EE;
+    border: none;
+}
+
+.EmailButton:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Containers */
+div {
+    padding: 10px;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto;
+    animation: fadeInScale 0.5s ease-in-out;
+}
+
+.ContactInfoBanner {
+    color: #4a6572;
+}
+/* Keyframe animation Thanks copilot */
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
+/* Responsive Design (RWD) */
+@media screen and (max-width: 1024px) {
+    .aboutUsInner {
+        flex-direction: column;
+    }
+
+    .titleButton {
+        font-size: 2rem;
+    }
+
+    .bodyParagraph {
+        width: 90%;
+    }
+
+    img {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titleButton {
+        font-size: 1.8rem;
+    }
+
+    .bodyParagraph {
+        width: 95%;
+    }
+
+    img {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .titleButton {
+        font-size: 1.5rem;
+    }
+
+    .bodyParagraph {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    img {
+        max-width: 90%;
+    }
+}
+
