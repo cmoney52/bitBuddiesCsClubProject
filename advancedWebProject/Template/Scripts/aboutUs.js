@@ -1,7 +1,14 @@
+
+//Scrolling Effect
+
+//Setting the scroll position
 var lastScrollTop = window.scrollY;
+
+//Getting top and bottom headers
 var navbar = document.querySelector('.navbar');
 var bottomHeader = document.querySelector('.bottomHeader');
 
+//Adding the listener to update the scroll and headers
 window.addEventListener('scroll', () => {
     var scrollTop = window.scrollY;
 
