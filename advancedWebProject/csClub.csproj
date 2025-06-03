@@ -61,7 +61,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Template\image\Mcqeen.jpg" />
     <Content Include="Template\aboutUs.html" />
     <Content Include="Template\compiler.html" />
     <Content Include="Template\image\aboutUsPortrait.jpeg" />

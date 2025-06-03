@@ -1,23 +1,34 @@
-/* General Styles */
+/* Importing Baloo 2 for a playful look */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
+
+/* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    background: url("../image/backgroundPicture.png") no-repeat center center fixed;
+    background-size: cover;
+    color: #F0F5FF;
+    font-family: 'Baloo 2', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Header */
+/* Header Styling */
 header {
+    background: #4A4A4A;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: #4CAF50;
-    padding: 20px;
 }
 
 #titleHeader {
-    color: white;
-    font-size: 24px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFD700;
     text-align: center;
 }
 
@@ -25,72 +36,90 @@ header {
 #loginComponents {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 #signUp {
-    background-color: white;
-    color: #4CAF50;
-    border: none;
+    font-size: 1rem;
     padding: 10px 15px;
-    margin-right: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #DFF3E3;
+    color: #255F85;
     cursor: pointer;
-    border-radius: 5px;
+    transition: 0.3s ease-in-out;
 }
 
-#profilePic {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: lightgray;
-}
+    #signUp:hover {
+        transform: scale(1.05);
+        background: #C6C8EE;
+    }
 
-/* Navigation */
+/* Navigation Bar */
 nav {
-    background-color: #333;
+    background: #4A4A4A;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     padding: 10px;
 }
 
-    nav div {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
     nav a {
-        color: white;
+        color: #FFFFFF;
         text-decoration: none;
-        padding: 10px;
+        padding: 10px 15px;
+        font-weight: 600;
+        transition: 0.3s ease-in-out;
     }
 
         nav a:hover {
-            background-color: #555;
+            background: #FFD700;
+            color: #333333;
         }
 
+/* Search Bar */
 input[type="search"] {
-    padding: 5px;
+    padding: 8px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #CCC;
+    margin-left: 10px;
 }
 
-/* Main Section */
+/* Main Content */
 main {
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 #centerLogo {
-    width: 200px;
-    border-radius: 10px;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 157, 255, 0.5);
+    transition: 0.3s ease-in-out;
 }
 
-/* Responsive Design */
-@media (max-width: 600px) {
-    header {
-        flex-direction: column;
-        text-align: center;
+    #centerLogo:hover {
+        transform: scale(1.05);
     }
 
-    nav div {
+/* Responsive Design */
+@media (max-width: 768px) {
+    #titleHeader {
+        font-size: 2.5rem;
+    }
+
+    nav {
         flex-direction: column;
+    }
+
+        nav a {
+            display: block;
+            text-align: center;
+            padding: 8px;
+        }
+
+    #centerLogo {
+        width: 70%;
     }
 }

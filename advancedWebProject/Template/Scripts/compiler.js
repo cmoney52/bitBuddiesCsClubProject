@@ -2,8 +2,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const runBtn = document.getElementById("run-btn");
     if (!runBtn) return;
 
+    // Initialize CodeMirror once, outside the event listener
+    const sourceCode = CodeMirror.fromTextArea(document.getElementById("source-code"), {
+        mode: "python",
+        theme: "monokai",
+        lineNumbers: true,
+        indentUnit: 4,
+        smartIndent: true
+    });
+
     runBtn.addEventListener("click", async () => {
-        const code = document.getElementById("source-code").value;
+        // Now correctly get the existing CodeMirror content
+        var code = sourceCode.getValue();
+        console.log("Submitted Code:", code);
+
         const outputElement = document.getElementById("output");
         outputElement.textContent = "Running your code...";
 
@@ -20,7 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 "x-rapidapi-host": "judge0-ce.p.rapidapi.com",
                 "content-type": "application/json"
             },
-
             body: JSON.stringify(payload)
         };
 
