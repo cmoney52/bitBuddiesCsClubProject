@@ -25,7 +25,7 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     position: fixed;
-    top: -100px;
+    top: 0px;
     left: 0;
     z-index: 1000;
     transition: top 0.5s ease-in-out;
@@ -151,10 +151,10 @@ body {
 
 /* Image Styling */
 img {
+    aspect-ratio: 9/16;
     display: block;
     max-width: 50%;
     max-height: 50vh;
-    width: 50%;
     border: solid 1px #009DFF;
     margin: 20px auto;
     border-radius: 20px;
