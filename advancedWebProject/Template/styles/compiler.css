@@ -2,31 +2,32 @@
 /*Commented with Copilot*/
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
 
-/*Prevnting Scrolling*/
+/*Updating the text and ensuring the background covers the whole screen*/
 html, body {
     font-family: 'Baloo 2', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/*RWD*/
+/*Using Responsive Web*/
 * {
     box-sizing: border-box;
 }
   
+/*Removing Borders on the Boxes*/
 [class*="col-"] {
     float: left;
     padding: 15px;
     border: 1px solid 
-red;  /* remove if you do not want borders on boxes */
+    red;
 }
 
-/* For mobile phones: */
+/* Setting for Mobile*/
 [class*="col-"] {
     width: 100%;
 }
 
-/* For tablets: */
+/*Tablet updates (Copilot) */
 @media only screen and (min-width: 720px) {   /*  Everything under 720 is mobile  */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -42,7 +43,7 @@ red;  /* remove if you do not want borders on boxes */
     .col-s-12 {width: 100%;}
   }
 
-/* For desktop: */
+/*Desktop (sized by copilot) */
 @media only screen and (min-width: 1000px) {   /*  Between 720 and 1000 is tablet  */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -63,8 +64,10 @@ red;  /* remove if you do not want borders on boxes */
     clear: both;
     display: table;
 }
-/********  END RWD  ********/
+/********  END OF RWD  ********/
 
+
+/*Setting the background*/
 body {
     background-image: url("../image/backgroundPicture.png");
     background-size: 100%;
@@ -76,7 +79,7 @@ body {
 
 /* The navbar */
 .navbar {
-    background: #4A4A4A; /* Dark gray for a professional look */
+    background: #4A4A4A;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     max-width: 100vw;
     border-radius: 0px;
@@ -86,29 +89,31 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     position: fixed;
-    top: 0px; /* Keep it fixed at the top */
+    top: 0px;
     left: 0;
     z-index: 1000;
 }
 
 
-    /* Buttons */
+    /* Buttons in the navbar*/
     .navbar a {
         padding: 10px 20px;
         width: 25%;
         border-radius: 4px;
         text-decoration: none;
-        background: transparent; /* Keeps it clean */
-        color: #FFFFFF; /* White text for high contrast */
+        background: transparent;
+        color: #FFFFFF;
         font-weight: 600;
         transition: background 0.3s ease, color 0.3s ease;
     }
+    
+    /*Switch to highlight*/
+    .navbar a:hover {
+        background: #FFD700; 
+        color: #333333;
+    }
 
-        .navbar a:hover {
-            background: #FFD700; /* Professional yellow for hover */
-            color: #333333; /* Darker text for readability */
-        }
-
+/*Container storing the div*/
 .container {
     background: #fff;
     margin-top: 100px;
@@ -119,11 +124,13 @@ body {
     border-radius: 8px;
 }
 
+/*Updating the texts*/
 h1 {
     text-align: center;
     color: #333;
 }
 
+/*Updaing the internal text area*/
 textarea {
     width: 100%;
     min-height: 250px;
@@ -135,6 +142,11 @@ textarea {
     margin-bottom: 10px;
 }
 
+/*Setting the theme of the help text area*/
+.helpheader {
+    font-size: 28px;
+}
+/*Button style*/
 button {
     background: #0078d7;
     border: none;
@@ -146,10 +158,13 @@ button {
     transition: background-color 0.2s ease;
 }
 
-    button:hover {
-        background: #005fa3;
-    }
 
+/*Updaing the color of the run button when hovering*/
+button:hover {
+    background: #005fa3;
+}
+
+/*Setting the font of the output of the text box*/
 pre {
     background: #272822;
     color: #f8f8f2;
@@ -162,42 +177,102 @@ pre {
 }
 
 
-
-
-/*Making compiler window have the correct colors thanks copilot*/
-#source-code + .CodeMirror .cm-keyword {
-    color: #e91e63;
-    font-weight: bold;
-}
 /* Keywords */
-#source-code + .CodeMirror .cm-variable {
-    color: #ff9800;
-}
-/* Variables */
-#source-code + .CodeMirror .cm-def {
-    color: #03a9f4;
+#source-code .CodeMirror .cm-keyword {
+    color: #ff1744; /* Bright red */
     font-weight: bold;
 }
-/* Functions */
-#source-code + .CodeMirror .cm-string {
-    color: #4caf50;
+
+/* Variables */
+#source-code .CodeMirror .cm-variable {
+    color: #ff9800; /* Vivid orange */
+    font-weight: bold;
 }
+
+/* Functions */
+#source-code .CodeMirror .cm-def {
+    color: #00b0ff; /* Electric blue */
+    font-weight: bold;
+}
+
 /* Strings */
-#source-code + .CodeMirror .cm-comment {
-    color: #9e9e9e;
+#source-code .CodeMirror .cm-string {
+    color: #76ff03; /* Neon green */
+}
+
+/* Comments */
+#source-code .CodeMirror .cm-comment {
+    color: #bdbdbd; /* Light gray for readability */
     font-style: italic;
 }
-/* Comments */
-#source-code + .CodeMirror .cm-number {
-    color: #f44336;
-}
+
 /* Numbers */
-#source-code + .CodeMirror .cm-operator {
-    color: #607d8b;
+#source-code .CodeMirror .cm-number {
+    color: #ff3d00; /* Intense red-orange */
 }
+
 /* Operators */
-#source-code + .CodeMirror .cm-builtin {
-    color: #673ab7;
+#source-code .CodeMirror .cm-operator {
+    color: #00e5ff; /* Cyan for contrast */
 }
-/* Built-in functions */
+
+/* Built-in Functions */
+#source-code .CodeMirror .cm-builtin {
+    color: #d500f9; /* Vibrant purple */
+}
+
+/* Decorators */
+#source-code .CodeMirror .cm-meta {
+    color: #ff4081; /* Hot pink */
+    font-style: italic;
+}
+
+/* Exception Handling */
+#source-code .CodeMirror .cm-error {
+    color: #f44336; /* Bold red */
+    font-weight: bold;
+}
+
+/* Brackets and Parentheses */
+#source-code .CodeMirror .cm-bracket {
+    color: #00e676; /* Bright green */
+}
+
+/* Imports */
+#source-code .CodeMirror .cm-tag {
+    color: #ffff00; /* Yellow for clarity */
+}
+
+/* Special Constants */
+#source-code .CodeMirror .cm-atom {
+    color: #ff5722; /* Deep orange */
+    font-weight: bold;
+}
+
+/* Container Window */
+#container {
+    background-color: #1e1e1e; /* Dark gray */
+    color: #ffffff; /* White text */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', monospace;
+}
+
+    /* Instructional Text */
+    #container .instruction-text {
+        font-size: 14px;
+        font-weight: bold;
+        color: #ffeb3b; /* Bright yellow */
+    }
+
+    /* Code Snippets */
+    #container .code-snippet {
+        background-color: #424242;
+        color: #40c4ff; /* Vibrant blue */
+        padding: 5px;
+        border-radius: 4px;
+        font-family: 'Courier New', monospace;
+    }
+
 
