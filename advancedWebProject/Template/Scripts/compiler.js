@@ -82,12 +82,23 @@ function runButton() {
 
 function themeButton() {
     var themeBtn = document.getElementById("theme-btn");
+    var backgrounds = document.getElementsByClassName("container");
+
     themeBtn.addEventListener("click", function () {
         var currentTheme = sourceCode.getOption("theme");
         if (currentTheme === "solarized dark") {
             sourceCode.setOption("theme", "base16-light");
+            for (var i = 0; i < backgrounds.length; i++) {
+                backgrounds[i].style.backgroundColor = "#FFF";
+                backgrounds[i].style.color= "#243535"
+            }
+
         } else {
             sourceCode.setOption("theme", "solarized dark");
+            for (var i = 0; i < backgrounds.length; i++) {
+                backgrounds[i].style.backgroundColor = "#243535";
+                backgrounds[i].style.color = "#FFF";
+            }
         }
     });
 

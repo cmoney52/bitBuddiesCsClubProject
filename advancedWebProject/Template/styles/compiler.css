@@ -127,7 +127,6 @@ body {
 /*Updating the texts*/
 h1 {
     text-align: center;
-    color: #333;
 }
 
 /*Updaing the internal text area*/
@@ -175,104 +174,5 @@ pre {
     white-space: pre-wrap;
     word-wrap: break-word;
 }
-
-
-/* Keywords */
-#source-code .CodeMirror .cm-keyword {
-    color: #ff1744; /* Bright red */
-    font-weight: bold;
-}
-
-/* Variables */
-#source-code .CodeMirror .cm-variable {
-    color: #ff9800; /* Vivid orange */
-    font-weight: bold;
-}
-
-/* Functions */
-#source-code .CodeMirror .cm-def {
-    color: #00b0ff; /* Electric blue */
-    font-weight: bold;
-}
-
-/* Strings */
-#source-code .CodeMirror .cm-string {
-    color: #76ff03; /* Neon green */
-}
-
-/* Comments */
-#source-code .CodeMirror .cm-comment {
-    color: #bdbdbd; /* Light gray for readability */
-    font-style: italic;
-}
-
-/* Numbers */
-#source-code .CodeMirror .cm-number {
-    color: #ff3d00; /* Intense red-orange */
-}
-
-/* Operators */
-#source-code .CodeMirror .cm-operator {
-    color: #00e5ff; /* Cyan for contrast */
-}
-
-/* Built-in Functions */
-#source-code .CodeMirror .cm-builtin {
-    color: #d500f9; /* Vibrant purple */
-}
-
-/* Decorators */
-#source-code .CodeMirror .cm-meta {
-    color: #ff4081; /* Hot pink */
-    font-style: italic;
-}
-
-/* Exception Handling */
-#source-code .CodeMirror .cm-error {
-    color: #f44336; /* Bold red */
-    font-weight: bold;
-}
-
-/* Brackets and Parentheses */
-#source-code .CodeMirror .cm-bracket {
-    color: #00e676; /* Bright green */
-}
-
-/* Imports */
-#source-code .CodeMirror .cm-tag {
-    color: #ffff00; /* Yellow for clarity */
-}
-
-/* Special Constants */
-#source-code .CodeMirror .cm-atom {
-    color: #ff5722; /* Deep orange */
-    font-weight: bold;
-}
-
-/* Container Window */
-#container {
-    background-color: #1e1e1e; /* Dark gray */
-    color: #ffffff; /* White text */
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
-    font-family: 'Courier New', monospace;
-}
-
-    /* Instructional Text */
-    #container .instruction-text {
-        font-size: 14px;
-        font-weight: bold;
-        color: #ffeb3b; /* Bright yellow */
-    }
-
-    /* Code Snippets */
-    #container .code-snippet {
-        background-color: #424242;
-        color: #40c4ff; /* Vibrant blue */
-        padding: 5px;
-        border-radius: 4px;
-        font-family: 'Courier New', monospace;
-    }
 
 

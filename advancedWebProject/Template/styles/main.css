@@ -19,7 +19,7 @@ header {
     background: #4A4A4A;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     width: 100%;
-    padding: 15px;
+    padding: 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,6 +90,12 @@ main {
     text-align: center;
     padding: 40px;
 }
+
+.logo {
+    width: 200px; /* Adjust width */
+    height: auto; /* Keeps aspect ratio */
+}
+
 
 #centerLogo {
     width: 50%;
