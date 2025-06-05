@@ -1,2 +1,125 @@
+/* Importing Baloo 2 for a playful look */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
 
+/* General Styling */
+body {
+    background: url("../image/backgroundPicture.png") no-repeat center center fixed;
+    background-size: cover;
+    color: #F0F5FF;
+    font-family: 'Baloo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+/* Header Styling */
+header {
+    background: #4A4A4A;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titleHeader {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFD700;
+    text-align: center;
+}
+
+/* Login Components */
+#loginComponents {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#signUp {
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #DFF3E3;
+    color: #255F85;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+    #signUp:hover {
+        transform: scale(1.05);
+        background: #C6C8EE;
+    }
+
+/* Navigation Bar */
+nav {
+    background: #4A4A4A;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+    nav a {
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-weight: 600;
+        transition: 0.3s ease-in-out;
+    }
+
+        nav a:hover {
+            background: #FFD700;
+            color: #333333;
+        }
+
+/* Search Bar */
+input[type="search"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin-left: 10px;
+}
+
+/* Main Content */
+main {
+    text-align: center;
+    padding: 40px;
+}
+
+#centerLogo {
+    width: 50%;
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 157, 255, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+    #centerLogo:hover {
+        transform: scale(1.05);
+    }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #titleHeader {
+        font-size: 2.5rem;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+        nav a {
+            display: block;
+            text-align: center;
+            padding: 8px;
+        }
+
+    #centerLogo {
+        width: 70%;
+    }
+}
