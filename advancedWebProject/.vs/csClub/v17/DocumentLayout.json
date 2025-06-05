@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\template\\styles\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\styles\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\template\\styles\\aboutus.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\styles\\aboutus.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\template\\scripts\\aboutus.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\scripts\\aboutus.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\image\\profileicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\template\\styles\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\styles\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\template\\styles\\compiler.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\styles\\compiler.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\template\\styles\\aboutus.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|solutionrelative:template\\styles\\aboutus.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9576975D-93D9-4842-9DCC-F660E2966519}|csClub.csproj|C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\template\\compiler.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "profileIcon.png",
               "DocumentMoniker": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\image\\profileIcon.png",
               "RelativeDocumentMoniker": "Template\\image\\profileIcon.png",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "aboutUs.js",
               "DocumentMoniker": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\Scripts\\aboutUs.js",
               "RelativeDocumentMoniker": "Template\\Scripts\\aboutUs.js",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "main.css",
               "DocumentMoniker": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\styles\\main.css",
               "RelativeDocumentMoniker": "Template\\styles\\main.css",
@@ -106,19 +106,21 @@
               "RelativeToolTip": "Template\\styles\\main.css",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAB8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-03T13:51:32.176Z"
+              "WhenOpened": "2025-06-03T13:51:32.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "aboutUs.css",
               "DocumentMoniker": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\styles\\aboutUs.css",
               "RelativeDocumentMoniker": "Template\\styles\\aboutUs.css",
               "ToolTip": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\styles\\aboutUs.css",
               "RelativeToolTip": "Template\\styles\\aboutUs.css",
-              "ViewState": "AQIAAOoAAAAAAAAAAAAAwAsBAAAAAAAA",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAAwO0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-02T18:05:04.23Z"
+              "WhenOpened": "2025-06-02T18:05:04.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -146,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "compiler.css",
               "DocumentMoniker": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\styles\\compiler.css",
               "RelativeDocumentMoniker": "Template\\styles\\compiler.css",
