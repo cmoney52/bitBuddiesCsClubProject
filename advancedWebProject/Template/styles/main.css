@@ -19,7 +19,6 @@ header {
     background: #4A4A4A;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     width: 100%;
-    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +29,7 @@ header {
     font-weight: bold;
     color: #FFD700;
     text-align: center;
+    margin: 0 auto 0 auto;
 }
 
 /* Login Components */

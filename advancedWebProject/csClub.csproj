@@ -65,6 +65,7 @@
     <Content Include="Template\compiler.html" />
     <Content Include="Template\image\aboutUsPortrait.jpeg" />
     <Content Include="Template\image\backgroundPicture.png" />
+    <Content Include="Template\image\profileIcon.png" />
     <Content Include="Template\main.html" />
     <Content Include="Template\Portrait.jpg" />
     <Content Include="Template\Scripts\aboutUs.js" />
