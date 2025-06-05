@@ -30,6 +30,7 @@ header {
     font-weight: bold;
     color: #FFD700;
     text-align: center;
+    margin: 0 auto 0 auto;
 }
 
 /* Login Components */
