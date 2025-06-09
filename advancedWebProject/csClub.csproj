@@ -65,7 +65,9 @@
     <Content Include="Template\compiler.html" />
     <Content Include="Template\image\aboutUsPortrait.jpeg" />
     <Content Include="Template\image\backgroundPicture.png" />
+    <Content Include="Template\image\codingHelp.jpg" />
     <Content Include="Template\image\logoBitBuddies.png" />
+    <Content Include="Template\image\logoBitBuddiesUpscaled.png" />
     <Content Include="Template\main.html" />
     <Content Include="Template\Portrait.jpg" />
     <Content Include="Template\Scripts\aboutUs.js" />
