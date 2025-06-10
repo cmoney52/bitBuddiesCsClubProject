@@ -104,18 +104,24 @@ function themeButton() {
 
 }
 
-//Save button. Write code to a doc:
 function saveButton() {
-    var saveBtn = document.getElementById("save-btn");
+    const saveBtn = document.getElementById("save-btn");
     saveBtn.addEventListener("click", function () {
-        console.log("Event Listener working");
-        navigator.clipboard.writeText(sourceCode.getValue()).then(() => {
-            alert("Text copied to clipboard! Please paste onto your device."); // Optional feedback
-        }).catch(err => {
-            console.error("Failed to copy, Please try again");
+        const code = sourceCode.getValue();
+        let savedEntries = JSON.parse(localStorage.getItem("savedCodeEntries")) || [];
+
+        savedEntries.push({
+            timestamp: new Date().toLocaleString(),
+            code: code
         });
+
+        localStorage.setItem("savedCodeEntries", JSON.stringify(savedEntries));
+        console.log("Code entry saved.");
+        alert("Code saved successfully!");
     });
 }
+
+
 //Starting the compiler 
 function startCompiler() {
     // Initialize CodeMirror once, outside the event listener creates the IDE window
