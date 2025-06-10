@@ -5,3 +5,17 @@ C:\Users\20220789\Documents\Run\2025\advancedWeb\VS2022\bitBuddiesCsClubProject\
 C:\Users\20220789\Documents\Run\2025\advancedWeb\VS2022\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\csClub.csproj.CoreCompileInputs.cache
 C:\Users\20220789\Documents\Run\2025\advancedWeb\VS2022\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\M1A2.dll
 C:\Users\20220789\Documents\Run\2025\advancedWeb\VS2022\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\M1A2.pdb
+C:\Users\20220789\Documents\Run\2025\advancedWeb\VS2022\bitBuddiesCSProject\advancedWebProject\bin\M1A2.dll.config
+C:\Users\20220789\Documents\Run\2025\advancedWeb\VS2022\bitBuddiesCSProject\advancedWebProject\bin\M1A2.dll
+C:\Users\20220789\Documents\Run\2025\advancedWeb\VS2022\bitBuddiesCSProject\advancedWebProject\bin\M1A2.pdb
+C:\Users\20220789\Documents\Run\2025\advancedWeb\VS2022\bitBuddiesCSProject\advancedWebProject\obj\Debug\csClub.csproj.AssemblyReference.cache
+C:\Users\20220789\Documents\Run\2025\advancedWeb\VS2022\bitBuddiesCSProject\advancedWebProject\obj\Debug\csClub.csproj.CoreCompileInputs.cache
+C:\Users\20220789\Documents\Run\2025\advancedWeb\VS2022\bitBuddiesCSProject\advancedWebProject\obj\Debug\M1A2.dll
+C:\Users\20220789\Documents\Run\2025\advancedWeb\VS2022\bitBuddiesCSProject\advancedWebProject\obj\Debug\M1A2.pdb
+C:\Users\20130150\Documents\Run\2025\bitBuddiesCsClubProject\advancedWebProject\bin\M1A2.dll.config
+C:\Users\20130150\Documents\Run\2025\bitBuddiesCsClubProject\advancedWebProject\bin\M1A2.dll
+C:\Users\20130150\Documents\Run\2025\bitBuddiesCsClubProject\advancedWebProject\bin\M1A2.pdb
+C:\Users\20130150\Documents\Run\2025\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\csClub.csproj.AssemblyReference.cache
+C:\Users\20130150\Documents\Run\2025\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\csClub.csproj.CoreCompileInputs.cache
+C:\Users\20130150\Documents\Run\2025\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\M1A2.dll
+C:\Users\20130150\Documents\Run\2025\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\M1A2.pdb

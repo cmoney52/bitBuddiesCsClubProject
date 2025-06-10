@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/compiler.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/theme/solarized.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/theme/base16-light.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.12/codemirror.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.12/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.12/mode/python/python.min.js"></script>
+
+    <title>Online Code Compiler</title>
+</head>
+<body>
+        <div class="navbar">
+        <a href="main.html">Home</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="#">Compiler</a>
+    </div>
+        <div class="container">
+            <h1>Online Code Compiler</h1>
+
+            <textarea id="source-code" placeholder="Type your Python code here...">print("Hello, world!")</textarea>
+
+            <button id="run-btn">Run Code</button>
+            <button id="save-btn">Save Code</button>
+            <button id="theme-btn">Switch Theme</button>
+            <h2>Output:</h2>
+            <pre id="output">Your program output will show here...</pre>
+        </div>
+        <div class="container">
+            <h class="helpheader"><strong>Basic Commands</strong></h>
+                <p>
+                    <strong>1. Print Text on the Screen:</strong><br>
+                    <code>print("Hello, World!")</code>
+                </p>
+
+                <p>
+                    <strong>2. Store a Value in a Variable:</strong><br>
+                    <code>name = "Alice"</code><br>
+                    <code>print(name)</code>
+                </p>
+                <p>
+                    <strong>3. Do Simple Math:</strong><br>
+                    <code>sum = 5 + 3</code><br>
+                    <code>print(sum)</code>
+                </p>
+
+                <p>
+                    <strong>6. Make Decisions:</strong><br>
+                    <code>if age >= "18":</code><br>
+                    &nbsp;&nbsp;<code>print("You are an adult!")</code><br>
+                    <code>else:</code><br>
+                    &nbsp;&nbsp;<code>print("You are a minor!")</code>
+                </p>
+
+                <p>
+                    <strong>7. Repeat Actions in a Loop:</strong><br>
+                    <code>for i in range(3):</code><br>
+                    &nbsp;&nbsp;<code>print("Looping number:", i)</code>
+                </p>
+
+                <p>
+                    <strong>8. Define a Simple Function:</strong><br>
+                    <code>def greet():</code><br>
+                    &nbsp;&nbsp;<code>print("Hello!")</code><br>
+                    <code>greet()</code>
+                </p>
+        </div>
+            <script src="scripts/compiler.js"></script>
+</body>
+</html>
