@@ -1,0 +1,8 @@
+# Ignore everything in the parent folder
+*
+
+# Allow the specific subfolder you need
+!your-advancedWebProject/Template/
+
+advancedWebProject/.vs/csClub/v17/DocumentLayout.json
+advancedWebProject/.vs/csClub/v17/DocumentLayout.json
