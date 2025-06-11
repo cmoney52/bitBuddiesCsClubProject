@@ -77,10 +77,58 @@
               "RelativeDocumentMoniker": "Template\\main.html",
               "ToolTip": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\main.html",
               "RelativeToolTip": "Template\\main.html",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADkAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-06-02T16:39:12.316Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "compiler.js",
+              "DocumentMoniker": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\bitBuddiesCSProject\\advancedWebProject\\Template\\Scripts\\compiler.js",
+              "RelativeDocumentMoniker": "Template\\Scripts\\compiler.js",
+              "ToolTip": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\bitBuddiesCSProject\\advancedWebProject\\Template\\Scripts\\compiler.js",
+              "RelativeToolTip": "Template\\Scripts\\compiler.js",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAwFwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-02T18:46:14.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "aboutUs.css",
+              "DocumentMoniker": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\bitBuddiesCSProject\\advancedWebProject\\Template\\styles\\aboutUs.css",
+              "RelativeDocumentMoniker": "Template\\styles\\aboutUs.css",
+              "ToolTip": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\bitBuddiesCSProject\\advancedWebProject\\Template\\styles\\aboutUs.css",
+              "RelativeToolTip": "Template\\styles\\aboutUs.css",
+              "ViewState": "AQIAALoAAAAAAAAAAAAAAOoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-02T18:05:04.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "compiler.css",
+              "DocumentMoniker": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\bitBuddiesCSProject\\advancedWebProject\\Template\\styles\\compiler.css",
+              "RelativeDocumentMoniker": "Template\\styles\\compiler.css",
+              "ToolTip": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\bitBuddiesCSProject\\advancedWebProject\\Template\\styles\\compiler.css",
+              "RelativeToolTip": "Template\\styles\\compiler.css",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAAAIAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-02T17:25:08.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "aboutUs.html",
+              "DocumentMoniker": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\bitBuddiesCSProject\\advancedWebProject\\Template\\aboutUs.html",
+              "RelativeDocumentMoniker": "Template\\aboutUs.html",
+              "ToolTip": "C:\\Users\\20220789\\Documents\\Run\\2025\\advancedWeb\\VS2022\\bitBuddiesCSProject\\advancedWebProject\\Template\\aboutUs.html",
+              "RelativeToolTip": "Template\\aboutUs.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-28T15:29:49.777Z"
             },
             {
               "$type": "Document",
@@ -90,10 +138,9 @@
               "RelativeDocumentMoniker": "Template\\styles\\main.css",
               "ToolTip": "C:\\Users\\20130150\\Documents\\Run\\2025\\bitBuddiesCsClubProject\\advancedWebProject\\Template\\styles\\main.css",
               "RelativeToolTip": "Template\\styles\\main.css",
-              "ViewState": "AQIAAK8AAAAAAAAAAAArwMAAAAAPAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-03T13:51:32.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T13:51:32.176Z"
             },
             {
               "$type": "Document",
@@ -105,7 +152,7 @@
               "RelativeToolTip": "Template\\Scripts\\compiler.js",
               "ViewState": "AQIAAFQAAAAAAAAAAAAAwFwAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-06-02T18:46:14.307Z"
+              "WhenOpened": "2025-06-02T18:46:22.515Z"
             },
             {
               "$type": "Document",

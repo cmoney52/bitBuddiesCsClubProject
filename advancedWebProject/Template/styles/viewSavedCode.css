@@ -1,28 +1,27 @@
-/* Simple Reset */
+﻿/* Reset Stylesheet */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 /* Importing Baloo 2 for a playful look */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
 
-/* General Styling */
-body {
+html, body {
+    font-family: 'Baloo 2', sans-serif;
     background: url("../image/backgroundPicture.png") no-repeat center center fixed;
     background-size: cover;
     color: #F0F5FF;
-    font-family: 'Baloo 2', sans-serif;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-/* Header Styling */
 header {
     background: #4A4A4A;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -38,10 +37,9 @@ header {
     font-weight: bold;
     color: #FFD700;
     text-align: center;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }
 
-/* Login Components */
 #loginComponents {
     display: flex;
     align-items: center;
@@ -64,7 +62,6 @@ header {
         background: #C6C8EE;
     }
 
-/* Navigation Bar */
 nav {
     background: #4A4A4A;
     width: 100%;
@@ -86,7 +83,6 @@ nav {
             color: #333333;
         }
 
-/* Search Bar */
 input[type="search"] {
     padding: 8px;
     border-radius: 5px;
@@ -94,28 +90,37 @@ input[type="search"] {
     margin-left: 10px;
 }
 
-/* Main Content */
 main {
     text-align: center;
     padding: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #273c47;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-top: 120px;
+    width: 90%;
 }
 
-.logo {
-    width: 100px; /* Adjust width */
-    height: auto; /* Keeps aspect ratio */
+.outputEntry {
+    background: #272822;
+    color: #f8f8f2;
+    padding: 20px;
+    border-radius: 6px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: Consolas, Monaco, 'Courier New', monospace;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 10px;
+    text-align: left;
 }
 
-
-#centerLogo {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 157, 255, 0.5);
-    transition: 0.3s ease-in-out;
-}
-
-    #centerLogo:hover {
-        transform: scale(1.05);
+    .outputEntry h3 {
+        color: #255F85;
+        margin-bottom: 8px;
+        font-size: 1.2rem;
     }
 
 /* Responsive Design */
@@ -134,69 +139,24 @@ main {
             padding: 8px;
         }
 
-    #centerLogo {
-        width: 70%;
+    main {
+        padding: 20px;
+        font-size: 0.95rem;
+    }
+
+    .outputEntry {
+        font-size: 0.9rem;
     }
 }
 
-/* Welcome in box */
-#welcomeBox {
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-}
+/* Super-Wide Screen Support */
+@media screen and (min-width: 1440px) {
+    main {
+        max-width: 1200px;
+        padding: 60px;
+    }
 
-
-/* AI */
-
-/* Upcoming Events Section */
-#upcomingEvents {
-    background: rgba(74, 74, 74, 0.8); /* Slightly transparent dark background */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    width: 300px;
-    max-width: 600px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-/* Label Styling */
-#upcomingEvents label {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #FFD700; /* Gold to match theme */
-    display: block;
-    margin-bottom: 10px;
-}
-
-/* Event List */
-#eventsUl {
-    list-style-type: none;
-    padding: 0;
-}
-
-#eventsUl li {
-    background: #333333;
-    color: #F0F5FF;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    transition: 0.3s ease-in-out;
-}
-
-#eventsUl li:hover {
-    background: #FFD700; /* Gold on hover */
-    color: #333333;
-    transform: scale(1.02);
-}
-
-.col-6 {
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
-}
-
-img{
-    width:100%;
+    .outputEntry {
+        font-size: 1.1rem;
+    }
 }

@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\advancedWebProject",
+    "\\advancedWebProject\\Template",
+    "\\advancedWebProject\\Template\\Scripts"
   ],
-  "SelectedNode": "\\csClub.sln",
+  "SelectedNode": "\\advancedWebProject\\csClub.csproj",
   "PreviewInSolutionExplorer": false
 }

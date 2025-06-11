@@ -19,3 +19,10 @@ C:\Users\20130150\Documents\Run\2025\bitBuddiesCsClubProject\advancedWebProject\
 C:\Users\20130150\Documents\Run\2025\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\csClub.csproj.CoreCompileInputs.cache
 C:\Users\20130150\Documents\Run\2025\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\M1A2.dll
 C:\Users\20130150\Documents\Run\2025\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\M1A2.pdb
+C:\Users\vanla\Documents\GitHub\bitBuddiesCsClubProject\advancedWebProject\bin\M1A2.dll.config
+C:\Users\vanla\Documents\GitHub\bitBuddiesCsClubProject\advancedWebProject\bin\M1A2.dll
+C:\Users\vanla\Documents\GitHub\bitBuddiesCsClubProject\advancedWebProject\bin\M1A2.pdb
+C:\Users\vanla\Documents\GitHub\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\csClub.csproj.AssemblyReference.cache
+C:\Users\vanla\Documents\GitHub\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\csClub.csproj.CoreCompileInputs.cache
+C:\Users\vanla\Documents\GitHub\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\M1A2.dll
+C:\Users\vanla\Documents\GitHub\bitBuddiesCsClubProject\advancedWebProject\obj\Debug\M1A2.pdb
