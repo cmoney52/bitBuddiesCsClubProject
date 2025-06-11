@@ -76,6 +76,8 @@
     <Content Include="Template\styles\aboutUs.css" />
     <Content Include="Template\styles\compiler.css" />
     <Content Include="Template\styles\main.css" />
+    <Content Include="Template\styles\viewSavedCode.css" />
+    <Content Include="Template\viewSavedCode.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
